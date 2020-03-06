@@ -192,16 +192,16 @@ function dateFormat($data){
 	return date_format(new DateTime($data), 'd/m/Y');
 }//function dateFormat
 function dateTimeFormat($data){
-	return date_format($data, 'd-m-Y H:i:s');
+    return date_format(new DateTime($data), 'd-m-Y H:i:s');
 }//function dateTimeFormat
 function dateTimeFormat2($data){
-	return date_format($data, 'Y-m-d H:i:s');
+	return date_format(new DateTime($data), 'Y-m-d H:i:s');
 }//function dateTimeFormat
 function dateFormatCumpleanios($data){
-	return date_format($data, 'm-d');
+	return date_format(new DateTime($data), 'm-d');
 }//function dateFormatCumpleanios
 function dateFormatCumpleanios2($data){
-	return date_format($data, 'd-m');
+	return date_format(new DateTime($data), 'd-m');
 }//function dateFormatCumpleanios
 function trimForeach($respuesta){
     if($respuesta != ''){
