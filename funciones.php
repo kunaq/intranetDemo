@@ -189,7 +189,7 @@ function rutaGlobal($data){
 	return str_replace("\controllers", "", $data);
 }//function rutaGlobal
 function dateFormat($data){
-	return date_format($data, 'd-m-Y');
+	return date_format(new DateTime($data), 'd/m/Y');
 }//function dateFormat
 function dateTimeFormat($data){
 	return date_format($data, 'd-m-Y H:i:s');
