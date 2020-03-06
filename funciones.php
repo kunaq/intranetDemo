@@ -167,14 +167,14 @@ function escapeComillasJson2($data){
 }//function escapeComillasJson
 function arrayMapUtf8Decode($data){
     if($data != ''){
-        return $data;
+        return array_map('utf8_decode', $data);
     }else{
         return $data;
     }
 }//function arrayMapUtf8
 function arrayMapUtf8Encode($data){
     if($data != ''){
-        return $data;
+        return array_map('utf8_encode', $data);
     }else{
         return $data;
     }
