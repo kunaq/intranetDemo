@@ -1,0 +1,6 @@
+- su código me parece bien, el problema podría estar en la configuración de su red, verifique la configuración de su firewall y antivirus .
+- Conexión rechazada suena como un bloque de firewall. ¿Puede confirmar que el firewall en el servidor de administración tiene abiertos los puertos necesarios? También incluiría en la lista blanca las IP del servidor de administración en el servidor de transmisiones y viceversa.
+- Si usa un puerto que no sea 80, debe deshabilitar selinux en su servidor, luego reiniciar y verificar nuevamente
+- Pudieras revisar si tienes algun paquete o paquetes bloqueados en el log del firewall de tu PFsense. usualmente utiliza el puerto 80 pero estoy leyendo que puede utilizar algunos otros como el 8084 o el 25.Verifica tus logs.Y este famoso proveedor si sabe que hace te deberia de decir que puertos son los que usa su aplicacion.
+
+- https://forums.cpanel.net/threads/error-accessing-port-link.646957/

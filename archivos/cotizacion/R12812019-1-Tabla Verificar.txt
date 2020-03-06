@@ -1,0 +1,35 @@
+Sede :                                            vtama_localidad.dsc_localidad
+Nro Contrato :                           pr01_tab004.cod_contrato
+Estado :	                                  pr01_tab004.cod_estado
+Nombre Titular:                       pr01_tab004.cod_cliente, vtama_cliente.dsc_cliente
+DNI TItular :                               vtama_cliente.dsc_documento
+Producto:                                    pr01_tab004.cod_producto,  pr01_tab001.dsc_producto
+Fecha Emision:                         pr01_tab004.fch_generacion
+Usuario Aprobacion:              pr01_tab003.cod_usuario_aprueba, pr04.tab002.dsc_usuario
+Nro Contrato Sepultura:      pr01_tab004.cod_contrato_ctt
+Importe préstamo:                 pr01_tab004.imp_prestamo
+TEA:                                                pr01_tab0005.imp_tea_igv
+TEM: 		           pr01_tab0005.imp_tem
+Num Cuotas: 	           pr01_tab0005.num_cuotas
+Fch Vencimiento Credito:    pr01_tab0004.fch_vencimiento
+Dias de gracia:    	           pr01_tab0004.num_dias_gracia
+DNI Aval:		           pr01_tab0004.cod_aval
+Nombre Aval	           pr01_tab0004.cod_aval
+Monto Desembolso               ?? pr01_tab004.imp_prestamo
+Fecha desembolso                 pr01_tab0004.fch_desembolso
+Seguro Desgravamen           pr01_tab0004.imp_valor_seguro
+Monto Derecho Emision     pr01_tab0004.imp_valor_emision
+Monto Días de gracia            pr01_tab0005.imp_int_diaGracia
+Participa en la política          vtama_cliente.flg_partic_politica
+Tiene familiar que ....              vtama_cliente.flg_public_expuesta
+Línea de crédito	            pr01_tab0003.imp_linea_credito
+Ingreso Mensual 	            pr01_tab0003.imp_ingreso_mensual
+Correo Electrónico                   pr01_tab0003.dsc_mail,pr01_tab0003.dsc_mail_2
+Nro Teléfono                               pr01_tab0003.dsc_telefono,pr01_tab0003.dsc_telefono_2
+Ocupacion                                    pr01_tab0003.dsc_ocupacion
+Empresa en que labora          pr01_tab0003.dsc_centro_labores
+Direccion		            vtade_cliente_direccion.dsc_direccion, flg_comprobante ='SI'
+Departamento	            vtama_departamento.dsc_departamento
+Provincia		            vtama_provincia.dsc_provincia
+Distrito		            vtama_distrito.dsc_distrito
+

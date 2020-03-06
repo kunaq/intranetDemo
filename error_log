@@ -1,0 +1,16 @@
+[22-Dec-2019 15:24:10 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:28:25 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:29:04 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:30:26 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:34:05 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:37:43 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:37:48 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:38:24 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 15:54:11 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 16:00:09 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6
+[22-Dec-2019 16:00:55 America/Lima] PHP Fatal error:  Class 'ControladorPlantilla' not found in /home/kunaq/public_html/intranet/index.php on line 75
+[22-Dec-2019 16:01:09 America/Lima] PHP Fatal error:  Class 'ControladorNoticia' not found in /home/kunaq/public_html/intranet/views/modules/inicio/ultimas-noticias.php on line 18
+[22-Dec-2019 16:01:34 America/Lima] PHP Fatal error:  Class 'ControladorNoticia' not found in /home/kunaq/public_html/intranet/views/modules/inicio/ultimas-noticias.php on line 18
+[22-Dec-2019 15:01:57 America/Chicago] PHP Fatal error:  Class 'ControladorNoticia' not found in /home/kunaq/public_html/intranet/views/modules/inicio/ultimas-noticias.php on line 18
+[22-Dec-2019 15:03:39 America/Chicago] PHP Fatal error:  Class 'ControladorNoticia' not found in /home/kunaq/public_html/intranet/views/modules/inicio/ultimas-noticias.php on line 18
+[22-Dec-2019 16:04:40 America/Lima] PHP Fatal error:  Call to undefined function sqlsrv_connect() in /home/kunaq/public_html/intranet/conexion.php on line 6

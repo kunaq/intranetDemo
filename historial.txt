@@ -1,0 +1,22 @@
+- 26/12/2019 Me quede en seguir haciendo el modal para cotizacion por orden de compra
+- 27/12/2019 Me quede en mostrar los productos en el listado, ya capturo la cotizacion por orden de compra
+- 28/12/2019 Me quede en editar el detalle de la cotizacion, ya me inserta
+- 30/12/2019 Me quede en hacer que actuailzae cuando modofico un campo, ya hize para area y peso y fecha
+- 9/01/2019 Ya me inserta bien, al consultar verificar en el listado el campo oculto unidad no me jala
+- 10/10/2020 Me quede en crear ela columna de botones orden de produccion
+- 10/10/2019 Me quede en mostrar los datos adjuntos desde orden de produccion, ya tengo los datos
+- 14/01/2019 Me quede en el insertar de modal de observaciones por orden de produccion
+- 15/01/2019 Me qede en el flg automtico del listado de observacions orden de produccion
+- 15/01/2019 Me quede al guaradr que me actualize el listado
+- 16/01/2019 Me quede en el correlativo faturacion, ya tengo el diseño
+- 17/1/2020 Cambiar la forma de insertar el area hacerlo propducto x area, ya no area x producto
+- 20/1/2020 M equede en seguir haciendo el reporte del excel, en lista area igualar
+- 21/1/2020 Me quede en empezar el diseño de modal de area que orden produccion
+- 23/1/2020 Me quede en el modal de diseño en el estado cuando no sea pendiente.
+- 24/1/2020 Acabé el detalle del as áreas, falta poner el gif de carga, hacer un flujo total a todo orden de produccion, falta en el detalle de area de area ponre overfly y
+- 25/1/2020 Me quede en hacer un flujo total del sistema 
+- 28/1/2020 Me quede e seguir probando el histoico por facturacion, ya tengo todo relacionado, falta probar
+- 29/1/2020 Falta eleminar las 2 tablas nuevas en lista de area, al editar
+- 7/2/2020 Me quede en seguir haciendo el editar area, ya tengo la logica falta probar, y validar bien ,me quede en la parte del submit
+- 10/2/2020 Me quede en seguir revisando, las areas nueva, esta mal, hacer de nuevo
+- 14/2/2020 Me quede em arreglar el diseñño de orden produccion estado anlado

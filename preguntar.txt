@@ -1,0 +1,2 @@
+* 24/1/201
+ - Orden de produccion: En el listado de que color va cuando es area facturacion, y si va el campo estado
