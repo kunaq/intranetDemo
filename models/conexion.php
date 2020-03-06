@@ -2,36 +2,41 @@
 class Conexion{
   private $link;
   public function __construct(){
-    $connection = array("Database"=>DB_NAME,"UID"=>DB_USER,"PWD"=>DB_PASS,'CharacterSet' => 'UTF-8');
-    $this->link = sqlsrv_connect(DB_HOST,$connection);
-    if (!$this->link) {
-        echo "Error: No se pudo conectar a Sql." . PHP_EOL;
-        echo "error de depuración: " . sqlsrv_errors() . PHP_EOL;
-        exit;
-    }
+    $this->link = mssql_connect(DB_HOST,DB_USER,DB_PASS);
+      if(!$this->link){
+          echo 'No se pudo conectar';
+          exit;
+      }
+      if(!mssql_select_db(DB_NAME, $this->link)){
+          echo 'No se pudo conectar';
+          exit;
+      }
   }//function  __construct
   public function consulta($query){
-    return sqlsrv_query($this->link,$query);
+    return mssql_query($query);
   }
   public function recorrer($query){
-    return sqlsrv_fetch_array($query,SQLSRV_FETCH_ASSOC);
+    return mssql_fetch_array($query);
+  }
+  public function rows($query){
+      return mssql_num_rows($query);
   }
   public function liberar($query){
-    return sqlsrv_free_stmt($query);
+    return mssql_free_result($query);
   }
   public function cerrar(){
-    return sqlsrv_close($this->link);
+    return mssql_close($this->link);
   }
   public function inicioTransaccion(){
-    return sqlsrv_begin_transaction($this->link);
+    return true;
   }
   public function beginTransaction(){
-    return sqlsrv_begin_transaction($this->link);
+    return true;
   }
   public function commit(){
-    return sqlsrv_commit($this->link);
+    return true;
   }
   public function rollback(){
-    return sqlsrv_rollback($this->link);
+    return true;
   }
 }//class Conexion
